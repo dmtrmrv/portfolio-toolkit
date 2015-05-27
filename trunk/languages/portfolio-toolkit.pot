@@ -13,6 +13,118 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
+#: admin/class-portfolio-toolkit-admin.php:69
+msgid "Add New Project"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:70
+msgid "New Project"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:71
+msgid "Edit Project"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:72
+msgid "View Project"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:73
+msgid "All Projects"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:74
+msgid "Search Projects"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:75
+msgid "Parent Projects:"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:76
+msgid "No projects found."
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:77
+msgid "No projects found in Trash."
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:95
+msgid "Portfolio Items"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:123
+msgid "Search Categories"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:124
+msgid "All Categories"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:125
+msgid "Parent Category"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:126
+msgid "Parent Category:"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:127
+msgid "Edit Category"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:128
+msgid "Update Category"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:129
+msgid "Add New Category"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:130
+msgid "New Category Name"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:131
+msgid "Categories"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:147
+msgid "Search Tags"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:148
+msgid "All Tags"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:149
+msgid "Parent Tag"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:150
+msgid "Parent Tag:"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:151
+msgid "Edit Tag"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:152
+msgid "Update Tag"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:153
+msgid "Add New Tag"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:154
+msgid "New Tag Name"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:155
+msgid "Tags"
+msgstr ""
+
 #. Plugin Name of the plugin/theme
 msgid "Portfolio Toolkit"
 msgstr ""
@@ -33,4 +145,49 @@ msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "http://dmitrymayorov.com/"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:64
+msgctxt "post type general name"
+msgid "Projects"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:65
+msgctxt "post type singular name"
+msgid "Project"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:66
+msgctxt "admin menu"
+msgid "Portfolio"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:67
+msgctxt "add new on admin bar"
+msgid "Project"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:68
+msgctxt "book"
+msgid "Add New"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:121
+msgctxt "taxonomy general name"
+msgid "Portfolio Categories"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:145
+msgctxt "taxonomy general name"
+msgid "Portfolio Tags"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:122
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:146
+msgctxt "taxonomy singular name"
+msgid "Tag"
 msgstr ""
