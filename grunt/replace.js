@@ -19,25 +19,6 @@ module.exports = {
 			}
 		]
 	},
-	public: {
-		src: [
-			'trunk/public/css/<%= package.name %>-public.css'
-		],
-		overwrite: true,
-		replacements: [
-			{
-				from: /\}\n(?!\n)(?!\})|\}(?=.)/g,
-				to: function() {
-					return '}\n\n';
-				}
-			}, {
-				from: /\*\/\n(?!\n)|\*\/(?=.)/g,
-				to: function() {
-					return '*/\n\n';
-				}
-			}
-		]
-	},
 	readme: {
 		src: [
 			'trunk/README.txt',

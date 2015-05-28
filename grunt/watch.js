@@ -1,6 +1,6 @@
 module.exports = {
 	target: {
-		files: [ 'trunk/**/*.php' ],
+		files: [ 'trunk/**/*.php', 'sass/**/*.scss' ],
 		tasks: 'release',
 	}
 }

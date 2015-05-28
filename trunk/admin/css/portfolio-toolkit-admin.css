@@ -1,6 +1,5 @@
 /**
- * All of the CSS for your admin-specific functionality should be
- * included in this file.
+ * Admin columns.
  */
 
 .manage-column.column-thumbnail {
@@ -21,4 +20,32 @@
 	background-color: #eaeaea;
 	line-height: 50px;
 	text-align: center;
+}
+
+/**
+ * Metaboxes.
+ */
+
+#portfolio_toolkit_project_details .inside {
+	margin: 0;
+	padding: 0;
+}
+
+.ptk-field-wrap {
+	padding: 0.6em 1em 1em;
+	border-bottom: #e8e8e8 solid 1px;
+}
+
+.ptk-field-wrap:last-of-type {
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+
+.ptk-field-wrap label {
+	display: block;
+	margin-bottom: 3px;
+}
+
+.ptk-field-wrap input {
+	width: 100%;
 }

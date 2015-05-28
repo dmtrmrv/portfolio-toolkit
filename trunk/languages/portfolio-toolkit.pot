@@ -13,6 +13,34 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
+#: admin/class-portfolio-toolkit-admin-meta.php:60
+msgid "URL"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin-meta.php:65
+msgid "Consectetur adipisicing elit."
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin-meta.php:69
+msgid "Client"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin-meta.php:74
+msgid "Ipsum dolor sit amet, consectetur adipisicing elit."
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin-meta.php:78
+msgid "Date"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin-meta.php:83
+msgid "Dolor sit amet, consectetur adipisicing elit."
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin-meta.php:99
+msgid "Project Details"
+msgstr ""
+
 #: admin/class-portfolio-toolkit-admin.php:69
 msgid "Add New Project"
 msgstr ""
@@ -89,40 +117,48 @@ msgstr ""
 msgid "Categories"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:147
+#: admin/class-portfolio-toolkit-admin.php:148
 msgid "Search Tags"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:148
+#: admin/class-portfolio-toolkit-admin.php:149
 msgid "All Tags"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:149
+#: admin/class-portfolio-toolkit-admin.php:150
 msgid "Parent Tag"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:150
+#: admin/class-portfolio-toolkit-admin.php:151
 msgid "Parent Tag:"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:151
+#: admin/class-portfolio-toolkit-admin.php:152
 msgid "Edit Tag"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:152
+#: admin/class-portfolio-toolkit-admin.php:153
 msgid "Update Tag"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:153
+#: admin/class-portfolio-toolkit-admin.php:154
 msgid "Add New Tag"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:154
+#: admin/class-portfolio-toolkit-admin.php:155
 msgid "New Tag Name"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:155
+#: admin/class-portfolio-toolkit-admin.php:156
 msgid "Tags"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:192
+msgid "Project"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin.php:196
+msgid "Image"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
@@ -174,12 +210,12 @@ msgstr ""
 
 #: admin/class-portfolio-toolkit-admin.php:121
 msgctxt "taxonomy general name"
-msgid "Portfolio Categories"
+msgid "Categories"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:145
+#: admin/class-portfolio-toolkit-admin.php:146
 msgctxt "taxonomy general name"
-msgid "Portfolio Tags"
+msgid "Tags"
 msgstr ""
 
 #: admin/class-portfolio-toolkit-admin.php:122
@@ -187,7 +223,7 @@ msgctxt "taxonomy singular name"
 msgid "Category"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:146
+#: admin/class-portfolio-toolkit-admin.php:147
 msgctxt "taxonomy singular name"
 msgid "Tag"
 msgstr ""

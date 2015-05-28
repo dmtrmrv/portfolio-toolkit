@@ -6,7 +6,6 @@
     "color-shorthand": true,
     "element-case": "lower",
     "eof-newline": true,
-    "leading-zero": true,
     "quotes": "single",
     "space-before-colon": "",
     "space-after-colon": " ",
@@ -19,7 +18,6 @@
     "space-before-selector-delimiter": "",
     "space-before-closing-brace": "\n",
     "strip-spaces": true,
-    "unitless-zero": true,
     "vendor-prefix-align": true,
     "sort-order": [
         "$variable",

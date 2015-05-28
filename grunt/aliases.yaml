@@ -1,6 +1,13 @@
 default:
   - 'makepot'
 
+css:
+  - 'sass:admin'
+  - 'autoprefixer:admin'
+  - 'combine_mq:admin'
+  - 'replace:admin'
+  - 'csscomb'
+
 build:
   - 'clean:build'
   - 'copy:build'
@@ -8,6 +15,7 @@ build:
 
 release:
   - 'makepot'
+  - 'css'
   - 'replace:readme'
   - 'replace:main'
   - 'build'

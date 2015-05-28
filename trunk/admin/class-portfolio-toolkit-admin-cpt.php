@@ -20,7 +20,7 @@
  * @subpackage Portfolio_Toolkit/admin
  * @author     Dmitry Mayorov <iamdmitrymayorov@gmail.com>
  */
-class Portfolio_Toolkit_Admin {
+class Portfolio_Toolkit_Admin_CPT {
 
 	/**
 	 * The ID of this plugin.
@@ -193,7 +193,9 @@ class Portfolio_Toolkit_Admin {
 		
 		// Add Image Column if current theme supports thumbnails.
 		if ( current_theme_supports( 'post-thumbnails' ) ) {
-			$columns = array_slice( $columns, 0, 1, true ) + array( 'thumbnail' => __( 'Image', 'portfolio-toolkit' ) ) + array_slice( $columns, 1, NULL, true );
+			$columns = array_slice( $columns, 0, 1, true ) +
+		               array( 'thumbnail' => __( 'Image', 'portfolio-toolkit' ) ) +
+		               array_slice( $columns, 1, NULL, true );
 		}
 		
 		return $columns;
@@ -238,18 +240,12 @@ class Portfolio_Toolkit_Admin {
 	 */
 	public function enqueue_styles() {
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/portfolio-toolkit-admin.css', array(), $this->version, 'all' );
-
-	}
-
-	/**
-	 * Register the JavaScript for the admin area.
-	 *
-	 * @since 1.0.0
-	 */
-	public function enqueue_scripts() {
-
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/portfolio-toolkit-admin.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_style(
+			$this->plugin_name,
+			plugin_dir_url( __FILE__ ) . 'css/portfolio-toolkit-admin.css',
+			array(), $this->version,
+			'all'
+		);
 
 	}
 

@@ -1,0 +1,51 @@
+/**
+ * Admin columns.
+ */
+
+.manage-column.column-thumbnail {
+	width: 50px;
+}
+
+.thumbnail.column-thumbnail {
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	.no-image {
+		display: block;
+		width: 50px;
+		height: 50px;
+		color: #b8b8b8;
+		background-color: #eaeaea;
+		line-height: 50px;
+		text-align: center;
+	}
+}
+
+/**
+ * Metaboxes.
+ */
+
+#portfolio_toolkit_project_details {
+	.inside {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.ptk-field-wrap {
+	padding: 0.6em 1em 1em;
+	border-bottom: #e8e8e8 solid 1px;
+	&:last-of-type {
+		border-bottom: 0;
+		margin-bottom: 0;
+	}
+	label {
+		display: block;
+		margin-bottom: 3px;
+	}
+	input {
+		width: 100%;
+	}
+}
