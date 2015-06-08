@@ -41,11 +41,11 @@ msgstr ""
 msgid "Project Details"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:78
+#: admin/class-portfolio-toolkit-admin.php:82
 msgid "Project"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:83
+#: admin/class-portfolio-toolkit-admin.php:87
 msgid "Image"
 msgstr ""
 

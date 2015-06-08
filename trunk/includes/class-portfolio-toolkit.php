@@ -183,7 +183,8 @@ class Portfolio_Toolkit {
 
 		$plugin_admin = new Portfolio_Toolkit_Admin( $this->get_plugin_name(), $this->get_version() );
 
-		// Add admin column and enqueue admin styles.
+		// Add new iamge size, admin column and enqueue admin styles.
+		$this->loader->add_action( 'after_setup_theme',                    $plugin_admin, 'add_thumbnail' );
 		$this->loader->add_filter( 'manage_portfolio_posts_columns',       $plugin_admin, 'post_type_admin_columns' );
 		$this->loader->add_action( 'manage_portfolio_posts_custom_column', $plugin_admin, 'post_type_admin_columns_content', 10, 2 );
 		$this->loader->add_action( 'admin_enqueue_scripts',                $plugin_admin, 'enqueue_styles' );

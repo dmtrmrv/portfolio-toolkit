@@ -54,16 +54,20 @@ class Portfolio_Toolkit_Admin {
 
 	}
 
+	public function add_thumbnail() {
+		add_image_size( 'portfolio-toolkit-thumbnail', 100, 100, true );
+	}
+
 	/**
 	 * Gets featured image.
 	 *
 	 * @since 1.0.0
 	 */
 	public function post_type_get_featured_image( $post_ID ) {
-		$featured_image_id = get_post_thumbnail_id($post_ID);
+		$featured_image_id = get_post_thumbnail_id( $post_ID );
 
 		if ( $featured_image_id ) {
-			$post_thumbnail_img = wp_get_attachment_image_src( $featured_image_id, 'thumbnail' );
+			$post_thumbnail_img = wp_get_attachment_image_src( $featured_image_id, 'portfolio-toolkit-thumbnail' );
 			return $post_thumbnail_img[ 0 ];
 		}
 	}
