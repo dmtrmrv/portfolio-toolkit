@@ -13,152 +13,152 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
-#: admin/class-portfolio-toolkit-admin-meta.php:60
-msgid "URL"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin-meta.php:65
-msgid "Consectetur adipisicing elit."
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin-meta.php:69
+#: admin/class-portfolio-toolkit-admin-meta.php:33
 msgid "Client"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin-meta.php:74
-msgid "Ipsum dolor sit amet, consectetur adipisicing elit."
+#: admin/class-portfolio-toolkit-admin-meta.php:38
+msgid "Who was the client? Example: Apple"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin-meta.php:78
+#: admin/class-portfolio-toolkit-admin-meta.php:42
 msgid "Date"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin-meta.php:83
-msgid "Dolor sit amet, consectetur adipisicing elit."
+#: admin/class-portfolio-toolkit-admin-meta.php:47
+msgid "When was the project completed? Example: %s"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin-meta.php:99
+#: admin/class-portfolio-toolkit-admin-meta.php:51
+msgid "URL"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin-meta.php:56
+msgid "Link to a live project. Example: http://www.apple.com"
+msgstr ""
+
+#: admin/class-portfolio-toolkit-admin-meta.php:72
 msgid "Project Details"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:69
-msgid "Add New Project"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:70
-msgid "New Project"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:71
-msgid "Edit Project"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:72
-msgid "View Project"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:73
-msgid "All Projects"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:74
-msgid "Search Projects"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:75
-msgid "Parent Projects:"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:76
-msgid "No projects found."
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:77
-msgid "No projects found in Trash."
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:95
-msgid "Portfolio Items"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:123
-msgid "Search Categories"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:124
-msgid "All Categories"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:125
-msgid "Parent Category"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:126
-msgid "Parent Category:"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:127
-msgid "Edit Category"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:128
-msgid "Update Category"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:129
-msgid "Add New Category"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:130
-msgid "New Category Name"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:131
-msgid "Categories"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:148
-msgid "Search Tags"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:149
-msgid "All Tags"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:150
-msgid "Parent Tag"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:151
-msgid "Parent Tag:"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:152
-msgid "Edit Tag"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:153
-msgid "Update Tag"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:154
-msgid "Add New Tag"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:155
-msgid "New Tag Name"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:156
-msgid "Tags"
-msgstr ""
-
-#: admin/class-portfolio-toolkit-admin.php:192
+#: admin/class-portfolio-toolkit-admin.php:78
 msgid "Project"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:196
+#: admin/class-portfolio-toolkit-admin.php:83
 msgid "Image"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:34
+msgid "Add New Project"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:35
+msgid "New Project"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:36
+msgid "Edit Project"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:37
+msgid "View Project"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:38
+msgid "All Projects"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:39
+msgid "Search Projects"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:40
+msgid "Parent Projects:"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:41
+msgid "No projects found."
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:42
+msgid "No projects found in Trash."
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:60
+msgid "Portfolio Items"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:88
+msgid "Search Categories"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:89
+msgid "All Categories"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:90
+msgid "Parent Category"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:91
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:92
+msgid "Edit Category"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:93
+msgid "Update Category"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:94
+msgid "Add New Category"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:95
+msgid "New Category Name"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:96
+msgid "Categories"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:113
+msgid "Search Tags"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:114
+msgid "All Tags"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:115
+msgid "Parent Tag"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:116
+msgid "Parent Tag:"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:117
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:118
+msgid "Update Tag"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:119
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:120
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/class-portfolio-toolkit-cpt.php:121
+msgid "Tags"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
@@ -183,47 +183,47 @@ msgstr ""
 msgid "http://dmitrymayorov.com/"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:64
+#: includes/class-portfolio-toolkit-cpt.php:29
 msgctxt "post type general name"
 msgid "Projects"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:65
+#: includes/class-portfolio-toolkit-cpt.php:30
 msgctxt "post type singular name"
 msgid "Project"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:66
+#: includes/class-portfolio-toolkit-cpt.php:31
 msgctxt "admin menu"
 msgid "Portfolio"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:67
+#: includes/class-portfolio-toolkit-cpt.php:32
 msgctxt "add new on admin bar"
 msgid "Project"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:68
+#: includes/class-portfolio-toolkit-cpt.php:33
 msgctxt "book"
 msgid "Add New"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:121
+#: includes/class-portfolio-toolkit-cpt.php:86
 msgctxt "taxonomy general name"
 msgid "Categories"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:146
+#: includes/class-portfolio-toolkit-cpt.php:111
 msgctxt "taxonomy general name"
 msgid "Tags"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:122
+#: includes/class-portfolio-toolkit-cpt.php:87
 msgctxt "taxonomy singular name"
 msgid "Category"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:147
+#: includes/class-portfolio-toolkit-cpt.php:112
 msgctxt "taxonomy singular name"
 msgid "Tag"
 msgstr ""

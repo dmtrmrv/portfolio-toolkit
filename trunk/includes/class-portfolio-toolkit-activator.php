@@ -13,8 +13,6 @@
 /**
  * Fired during plugin activation.
  *
- * This class defines all code necessary to run during the plugin's activation.
- *
  * @since      1.0.0
  * @package    Portfolio_Toolkit
  * @subpackage Portfolio_Toolkit/includes
@@ -23,14 +21,15 @@
 class Portfolio_Toolkit_Activator {
 
 	/**
-	 * Short Description. (use period)
+	 * Flush rewrite rules when plugin is activated.
 	 *
-	 * Long Description.
-	 *
-	 * @since    1.0.0
+	 * @since 1.0.0
 	 */
 	public static function activate() {
-
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-portfolio-toolkit-cpt.php';
+		$cpt = new Portfolio_Toolkit_CPT();
+		$cpt->post_type();
+		flush_rewrite_rules();
 	}
 
 }

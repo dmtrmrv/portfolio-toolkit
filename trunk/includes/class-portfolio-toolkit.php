@@ -29,8 +29,7 @@
 class Portfolio_Toolkit {
 
 	/**
-	 * The loader that's responsible for maintaining and registering all hooks that power
-	 * the plugin.
+	 * The loader that's responsible for maintaining and registering all hooks that power the plugin.
 	 *
 	 * @since  1.0.0
 	 * @access protected
@@ -72,6 +71,8 @@ class Portfolio_Toolkit {
 
 		$this->load_dependencies();
 		$this->set_locale();
+		$this->define_cpt_hooks();
+		$this->define_meta_hooks();
 		$this->define_admin_hooks();
 
 	}
@@ -106,12 +107,17 @@ class Portfolio_Toolkit {
 		/**
 		 * The class responsible for creating 'portfolio' post type.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-portfolio-toolkit-admin-cpt.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-portfolio-toolkit-cpt.php';
 
 		/**
 		 * The class responsible for creating meta boxes for 'portfolio' post type.
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-portfolio-toolkit-admin-meta.php';
+
+		/**
+		 * The class responsible for adding image admin column and loading admin css.
+		 */
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-portfolio-toolkit-admin.php';
 
 		$this->loader = new Portfolio_Toolkit_Loader();
 
@@ -136,31 +142,51 @@ class Portfolio_Toolkit {
 	}
 
 	/**
-	 * Register all of the hooks related to the admin area functionality
-	 * of the plugin.
+	 * Register 'portfolio' post type.
+	 *
+	 * @since  1.0.0
+	 * @access private
+	 */
+	private function define_cpt_hooks() {
+
+		$plugin_cpt = new Portfolio_Toolkit_CPT();
+
+		// Add post type.
+		$this->loader->add_action( 'init', $plugin_cpt, 'post_type' );
+		$this->loader->add_action( 'init', $plugin_cpt, 'post_taxonomies', 0 );
+
+	}
+
+	/**
+	 * Register meta boxes for portfolio post type.
+	 *
+	 * @since  1.0.0
+	 * @access private
+	 */
+	private function define_meta_hooks() {
+
+		$plugin_admin_meta = new Portfolio_Toolkit_Admin_Meta();
+
+		// Add Meta Boxes.
+		$this->loader->add_action( 'add_meta_boxes', $plugin_admin_meta, 'meta_box' );
+		$this->loader->add_action( 'save_post',      $plugin_admin_meta, 'save_data', 1, 2 );
+
+	}
+
+	/**
+	 * Register other hooks related to the admin area functionality of the plugin.
 	 *
 	 * @since  1.0.0
 	 * @access private
 	 */
 	private function define_admin_hooks() {
 
-		$plugin_admin_cpt  = new Portfolio_Toolkit_Admin_CPT( $this->get_plugin_name(), $this->get_version() );
-		$plugin_admin_meta = new Portfolio_Toolkit_Admin_Meta( $this->get_plugin_name(), $this->get_version() );
+		$plugin_admin = new Portfolio_Toolkit_Admin( $this->get_plugin_name(), $this->get_version() );
 
-		// Add post type.
-		$this->loader->add_action( 'init', $plugin_admin_cpt, 'post_type' );
-		$this->loader->add_action( 'init', $plugin_admin_cpt, 'post_taxonomies', 0 );
-		
-		// Add admin column.
-		$this->loader->add_filter( 'manage_portfolio_posts_columns',       $plugin_admin_cpt, 'post_type_admin_columns' );
-		$this->loader->add_action( 'manage_portfolio_posts_custom_column', $plugin_admin_cpt, 'post_type_admin_columns_content', 10, 2 );
-
-		// Add CSS.
-		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin_cpt, 'enqueue_styles' );
-
-		// Add Meta Boxes.
-		$this->loader->add_action( 'add_meta_boxes', $plugin_admin_meta, 'meta_box' );
-		$this->loader->add_action( 'save_post',      $plugin_admin_meta, 'save_data', 1, 2 );
+		// Add admin column and enqueue admin styles.
+		$this->loader->add_filter( 'manage_portfolio_posts_columns',       $plugin_admin, 'post_type_admin_columns' );
+		$this->loader->add_action( 'manage_portfolio_posts_custom_column', $plugin_admin, 'post_type_admin_columns_content', 10, 2 );
+		$this->loader->add_action( 'admin_enqueue_scripts',                $plugin_admin, 'enqueue_styles' );
 	}
 
 	/**
