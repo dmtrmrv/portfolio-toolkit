@@ -3,17 +3,17 @@ Contributors: iamdmitrymayorov
 Tags: portfolio, post type, cpt
 Requires at least: 3.9.0
 Tested up to: 4.2
-Stable tag: 1.0.0
+Stable tag: 0.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add portfolio functionality to your website.
+Adds portfolio functionality to your website.
 
 == Description ==
 
 Portfolio Toolkit adds 'portfolio' post type with two taxonomies (Category and Tag). It also adds metabox with three fields: 'Client', 'Date' and 'URL'. Data from that metabox can be later used within your theme templates.
 
-Built with WordPress Plugin Boilerplate. 
+Built with WordPress Plugin Boilerplate. Follows WordPress coding and documentation standards.
 
 == Installation ==
 
