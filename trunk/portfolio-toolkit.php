@@ -16,7 +16,7 @@
  * Plugin Name:       Portfolio Toolkit
  * Plugin URI:        http://dmitrymayorov.com/portfolio-toolkit
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.0
+ * Version:           0.1.0
  * Author:            Dmitry Mayorov
  * Author URI:        http://dmitrymayorov.com/
  * License:           GPL-2.0+
