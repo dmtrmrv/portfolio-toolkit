@@ -41,13 +41,13 @@ module.exports = {
 			}
 		} ]
 	},
-	since: {
+	class: {
 		src: [
-			'trunk/**/*.php',
+			'trunk/includes/class-<%= package.name %>.php',
 		],
 		overwrite: true,
 		replacements: [ {
-			from: /\*\s@since.*/g,
+			from: /\$this->version.*/m,
 			to: function( matchedWord ) {
 				return matchedWord.replace( /\d+\.\d+\.\d+/g, '<%= package.version %>' );
 			}

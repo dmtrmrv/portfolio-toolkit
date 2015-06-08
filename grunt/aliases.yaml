@@ -18,4 +18,5 @@ release:
   - 'css'
   - 'replace:readme'
   - 'replace:main'
+  - 'replace:class'
   - 'build'
