@@ -4,7 +4,7 @@
  * The admin-specific functionality of the plugin.
  *
  * @link       http://dmitrymayorov.com/
- * @since      1.0.0
+ * @since      0.1.0
  *
  * @package    Portfolio_Toolkit
  * @subpackage Portfolio_Toolkit/admin
@@ -25,7 +25,7 @@ class Portfolio_Toolkit_Admin {
 	/**
 	 * The ID of this plugin.
 	 *
-	 * @since  1.0.0
+	 * @since  0.1.0
 	 * @access private
 	 * @var    string $plugin_name The ID of this plugin.
 	 */
@@ -34,7 +34,7 @@ class Portfolio_Toolkit_Admin {
 	/**
 	 * The version of this plugin.
 	 *
-	 * @since  1.0.0
+	 * @since  0.1.0
 	 * @access private
 	 * @var    string $version The current version of this plugin.
 	 */
@@ -43,7 +43,7 @@ class Portfolio_Toolkit_Admin {
 	/**
 	 * Initialize the class and set its properties.
 	 *
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 * @param string $plugin_name The name of this plugin.
 	 * @param string $version     The version of this plugin.
 	 */
@@ -61,7 +61,7 @@ class Portfolio_Toolkit_Admin {
 	/**
 	 * Gets featured image.
 	 *
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 */
 	public function post_type_get_featured_image( $post_ID ) {
 		$featured_image_id = get_post_thumbnail_id( $post_ID );
@@ -75,7 +75,7 @@ class Portfolio_Toolkit_Admin {
 	/**
 	 * Adds image column to Portfolio post listing screen.
 	 *
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 */
 	public function post_type_admin_columns( $columns ) {
 		// change 'Title' to 'Project' Jetpack Style.
@@ -94,7 +94,7 @@ class Portfolio_Toolkit_Admin {
 	/**
 	 * Displays Featured image or a placeholder.
 	 *
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 */
 	public function post_type_admin_columns_content( $column_name, $post_ID ) {
 		// Quick return if current theme does not support thumbnails.
@@ -126,7 +126,7 @@ class Portfolio_Toolkit_Admin {
 	/**
 	 * Register the stylesheets for the admin area.
 	 *
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 */
 	public function enqueue_styles() {
 

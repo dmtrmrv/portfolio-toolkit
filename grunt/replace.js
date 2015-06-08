@@ -40,5 +40,17 @@ module.exports = {
 				return matchedWord.replace( /\d+\.\d+\.\d+/g, '<%= package.version %>' );
 			}
 		} ]
+	},
+	since: {
+		src: [
+			'trunk/**/*.php',
+		],
+		overwrite: true,
+		replacements: [ {
+			from: /\*\s@since.*/g,
+			to: function( matchedWord ) {
+				return matchedWord.replace( /\d+\.\d+\.\d+/g, '<%= package.version %>' );
+			}
+		} ]
 	}
 };

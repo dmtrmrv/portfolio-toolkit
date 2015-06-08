@@ -4,7 +4,7 @@
  * The admin-specific functionality of the plugin.
  *
  * @link       http://dmitrymayorov.com/
- * @since      1.0.0
+ * @since      0.1.0
  *
  * @package    Portfolio_Toolkit
  * @subpackage Portfolio_Toolkit/includes
@@ -22,7 +22,7 @@ class Portfolio_Toolkit_CPT {
 	/**
 	 * Register Portfolio post type.
 	 *
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 */
 	public function post_type() {
 		$labels = array(
@@ -77,7 +77,7 @@ class Portfolio_Toolkit_CPT {
 	/**
 	 * Register Portfolio taxonomies.
 	 *
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 */
 	public function post_taxonomies() {
 		

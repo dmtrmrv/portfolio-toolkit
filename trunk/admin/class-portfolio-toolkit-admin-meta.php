@@ -4,7 +4,7 @@
  * The admin-specific functionality of the plugin.
  *
  * @link       http://dmitrymayorov.com/
- * @since      1.0.0
+ * @since      0.1.0
  *
  * @package    Portfolio_Toolkit
  * @subpackage Portfolio_Toolkit/admin
@@ -25,7 +25,7 @@ class Portfolio_Toolkit_Admin_Meta {
 	/**
 	 * Returns array of fields.
 	 *
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 */
 	public function get_fields() {
 		$fields = array (
@@ -64,7 +64,7 @@ class Portfolio_Toolkit_Admin_Meta {
 	/**
 	 * Registers Metabox.
 	 *
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 */
 	public function meta_box() {
 		add_meta_box(
@@ -79,7 +79,7 @@ class Portfolio_Toolkit_Admin_Meta {
 	/**
 	 * Displays Metaboxes.
 	 * 
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 */
 	public function display_fields() {
 
@@ -102,7 +102,7 @@ class Portfolio_Toolkit_Admin_Meta {
     /**
 	 * Saves Metabox data to a database.
 	 * 
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 */
 	public function save_data( $post_id, $post ) {
 		// Check if nonce is set.

@@ -7,7 +7,7 @@
  * public-facing side of the site and the admin area.
  *
  * @link       http://dmitrymayorov.com/
- * @since      1.0.0
+ * @since      0.1.0
  *
  * @package    Portfolio_Toolkit
  * @subpackage Portfolio_Toolkit/includes
@@ -21,7 +21,7 @@
  * Also maintains the unique identifier of this plugin as well as the current
  * version of the plugin.
  *
- * @since      1.0.0
+ * @since      0.1.0
  * @package    Portfolio_Toolkit
  * @subpackage Portfolio_Toolkit/includes
  * @author     Dmitry Mayorov <iamdmitrymayorov@gmail.com>
@@ -31,7 +31,7 @@ class Portfolio_Toolkit {
 	/**
 	 * The loader that's responsible for maintaining and registering all hooks that power the plugin.
 	 *
-	 * @since  1.0.0
+	 * @since  0.1.0
 	 * @access protected
 	 * @var    Portfolio_Toolkit_Loader    $loader    Maintains and registers all hooks for the plugin.
 	 */
@@ -40,7 +40,7 @@ class Portfolio_Toolkit {
 	/**
 	 * The unique identifier of this plugin.
 	 *
-	 * @since  1.0.0
+	 * @since  0.1.0
 	 * @access protected
 	 * @var    string    $plugin_name    The string used to uniquely identify this plugin.
 	 */
@@ -49,7 +49,7 @@ class Portfolio_Toolkit {
 	/**
 	 * The current version of the plugin.
 	 *
-	 * @since  1.0.0
+	 * @since  0.1.0
 	 * @access protected
 	 * @var    string    $version    The current version of the plugin.
 	 */
@@ -62,7 +62,7 @@ class Portfolio_Toolkit {
 	 * Load the dependencies, define the locale, and set the hooks for the admin area and
 	 * the public-facing side of the site.
 	 *
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 */
 	public function __construct() {
 
@@ -89,7 +89,7 @@ class Portfolio_Toolkit {
 	 * Create an instance of the loader which will be used to register the hooks
 	 * with WordPress.
 	 *
-	 * @since  1.0.0
+	 * @since  0.1.0
 	 * @access private
 	 */
 	private function load_dependencies() {
@@ -129,7 +129,7 @@ class Portfolio_Toolkit {
 	 * Uses the Portfolio_Toolkit_i18n class in order to set the domain and to register the hook
 	 * with WordPress.
 	 *
-	 * @since  1.0.0
+	 * @since  0.1.0
 	 * @access private
 	 */
 	private function set_locale() {
@@ -144,7 +144,7 @@ class Portfolio_Toolkit {
 	/**
 	 * Register 'portfolio' post type.
 	 *
-	 * @since  1.0.0
+	 * @since  0.1.0
 	 * @access private
 	 */
 	private function define_cpt_hooks() {
@@ -160,7 +160,7 @@ class Portfolio_Toolkit {
 	/**
 	 * Register meta boxes for portfolio post type.
 	 *
-	 * @since  1.0.0
+	 * @since  0.1.0
 	 * @access private
 	 */
 	private function define_meta_hooks() {
@@ -176,7 +176,7 @@ class Portfolio_Toolkit {
 	/**
 	 * Register other hooks related to the admin area functionality of the plugin.
 	 *
-	 * @since  1.0.0
+	 * @since  0.1.0
 	 * @access private
 	 */
 	private function define_admin_hooks() {
@@ -193,7 +193,7 @@ class Portfolio_Toolkit {
 	/**
 	 * Run the loader to execute all of the hooks with WordPress.
 	 *
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 */
 	public function run() {
 		$this->loader->run();
@@ -203,7 +203,7 @@ class Portfolio_Toolkit {
 	 * The name of the plugin used to uniquely identify it within the context of
 	 * WordPress and to define internationalization functionality.
 	 *
-	 * @since  1.0.0
+	 * @since  0.1.0
 	 * @return string The name of the plugin.
 	 */
 	public function get_plugin_name() {
@@ -213,7 +213,7 @@ class Portfolio_Toolkit {
 	/**
 	 * The reference to the class that orchestrates the hooks with the plugin.
 	 *
-	 * @since  1.0.0
+	 * @since  0.1.0
 	 * @return Portfolio_Toolkit_Loader Orchestrates the hooks of the plugin.
 	 */
 	public function get_loader() {
@@ -223,7 +223,7 @@ class Portfolio_Toolkit {
 	/**
 	 * Retrieve the version number of the plugin.
 	 *
-	 * @since  1.0.0
+	 * @since  0.1.0
 	 * @return string The version number of the plugin.
 	 */
 	public function get_version() {
