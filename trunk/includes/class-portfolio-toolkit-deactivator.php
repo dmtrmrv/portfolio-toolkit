@@ -13,8 +13,6 @@
 /**
  * Fired during plugin deactivation.
  *
- * This class defines all code necessary to run during the plugin's deactivation.
- *
  * @since      1.0.0
  * @package    Portfolio_Toolkit
  * @subpackage Portfolio_Toolkit/includes
@@ -23,14 +21,12 @@
 class Portfolio_Toolkit_Deactivator {
 
 	/**
-	 * Short Description. (use period)
-	 *
-	 * Long Description.
+	 * Flush rewrite rules when plugin is deactivated. 
 	 *
 	 * @since    1.0.0
 	 */
 	public static function deactivate() {
-
+		flush_rewrite_rules();
 	}
 
 }
