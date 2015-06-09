@@ -8,21 +8,19 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              http://dmitrymayorov.com/
- * @since             0.1.0
- * @package           Portfolio_Toolkit
+ * @link        http://dmitrymayorov.com/
+ * @since       0.1.0
+ * @package     Portfolio_Toolkit
  *
- * @wordpress-plugin
- * Plugin Name:       Portfolio Toolkit
- * Plugin URI:        http://dmitrymayorov.com/portfolio-toolkit
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           0.1.0
- * Author:            Dmitry Mayorov
- * Author URI:        http://dmitrymayorov.com/
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       portfolio-toolkit
- * Domain Path:       /languages
+ * Plugin Name: Portfolio Toolkit
+ * Description: Adds portfolio functionality to your WordPress website.
+ * Version:     0.1.0
+ * Author:      Dmitry Mayorov
+ * Author URI:  http://dmitrymayorov.com/
+ * License:     GPL-2.0+
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain: portfolio-toolkit
+ * Domain Path: /languages
  */
 
 // If this file is called directly, abort.

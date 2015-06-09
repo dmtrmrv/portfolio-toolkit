@@ -165,14 +165,8 @@ msgstr ""
 msgid "Portfolio Toolkit"
 msgstr ""
 
-#. Plugin URI of the plugin/theme
-msgid "http://dmitrymayorov.com/portfolio-toolkit"
-msgstr ""
-
 #. Description of the plugin/theme
-msgid ""
-"This is a short description of what the plugin does. It's displayed in the "
-"WordPress admin area."
+msgid "Adds portfolio functionality to your WordPress website."
 msgstr ""
 
 #. Author of the plugin/theme
