@@ -44,7 +44,7 @@ class Portfolio_Toolkit_Admin_Meta {
 				'type'  => 'text',
 				'id'    => 'portfolio_toolkit_project_date',
 				'class' => 'large-text',
-				'desc'  => sprintf( __( 'When was the project completed? Example: %s', 'portfolio-toolkit' ), date( 'M Y' ) ),
+				'desc'  => sprintf( __( 'When was the project completed? Example: %s', 'portfolio-toolkit' ), date( 'F Y' ) ),
 				'sntz'  => 'text',
 			),
 			'url' => array(
