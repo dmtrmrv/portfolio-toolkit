@@ -6,7 +6,7 @@ module.exports = {
 			require:   'susy'
 		},
 		files: {
-			'trunk/admin/css/<%= package.name %>-admin.css': 'sass/admin.scss',
+			'admin/css/<%= package.name %>-admin.css': 'sass/admin.scss',
 		}
 	}
 };

@@ -1,7 +1,7 @@
 module.exports = {
 	target: {
 		options: {
-			cwd: 'trunk',
+			cwd: '.',
 			mainFile: '<%= package.name %>.php',
 			domainPath: 'languages/',
 			potFilename: '<%= package.name %>.pot',

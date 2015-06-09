@@ -4,6 +4,6 @@ module.exports = {
 	},
 	admin: {
 		expand: true,
-		src: 'trunk/admin/css/<%= package.name %>-admin.css'
+		src: 'admin/css/<%= package.name %>-admin.css'
 	}
 };

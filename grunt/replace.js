@@ -2,7 +2,7 @@
 module.exports = {
 	admin: {
 		src: [
-			'trunk/admin/css/<%= package.name %>-admin.css'
+			'admin/css/<%= package.name %>-admin.css'
 		],
 		overwrite: true,
 		replacements: [
@@ -21,7 +21,7 @@ module.exports = {
 	},
 	readme: {
 		src: [
-			'trunk/README.txt',
+			'README.txt',
 		],
 		overwrite: true,
 		replacements: [ {
@@ -31,7 +31,7 @@ module.exports = {
 	},
 	main: {
 		src: [
-			'trunk/<%= package.name %>.php',
+			'<%= package.name %>.php',
 		],
 		overwrite: true,
 		replacements: [ {
@@ -43,7 +43,7 @@ module.exports = {
 	},
 	class: {
 		src: [
-			'trunk/includes/class-<%= package.name %>.php',
+			'includes/class-<%= package.name %>.php',
 		],
 		overwrite: true,
 		replacements: [ {
