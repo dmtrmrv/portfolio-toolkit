@@ -2,17 +2,17 @@
  * Admin columns.
  */
 
-.manage-column.column-thumbnail {
+.column-portfolio-toolkit-thumbnail {
 	width: 50px;
 }
 
-.thumbnail.column-thumbnail img {
+.column-portfolio-toolkit-thumbnail img {
 	display: block;
 	width: 100%;
 	height: auto;
 }
 
-.thumbnail.column-thumbnail .no-image {
+.column-portfolio-toolkit-thumbnail .no-image {
 	display: block;
 	width: 50px;
 	height: 50px;

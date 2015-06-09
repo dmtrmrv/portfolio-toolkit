@@ -84,7 +84,7 @@ class Portfolio_Toolkit_Admin {
 		// Add Image column if current theme supports thumbnails.
 		if ( current_theme_supports( 'post-thumbnails' ) ) {
 			$columns = array_slice( $columns, 0, 1, true ) +
-		               array( 'thumbnail' => __( 'Image', 'portfolio-toolkit' ) ) +
+		               array( 'portfolio-toolkit-thumbnail' => __( 'Image', 'portfolio-toolkit' ) ) +
 		               array_slice( $columns, 1, NULL, true );
 		}
 		
@@ -102,7 +102,7 @@ class Portfolio_Toolkit_Admin {
 			return;
 		}
 
-		if ( $column_name == 'thumbnail' ) {
+		if ( $column_name == 'portfolio-toolkit-thumbnail' ) {
 
 			// Try to get featured image ID.
 			$post_featured_image = $this->post_type_get_featured_image( $post_ID );
