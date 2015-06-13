@@ -4,5 +4,15 @@ module.exports = {
 	},
 	build: {
 		src: '../build/'
+	},
+	svn: {
+		src: [
+			'../svn/trunk'
+		]
+	},
+	assets: {
+		src: [
+			'../svn/assets'
+		]
 	}
 }

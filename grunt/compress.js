@@ -13,12 +13,13 @@ module.exports = {
 			'!**/sass/**',
 			'!.DS_Store',
 			'!**/.DS_Store',
+			'!.git',
 			'!.gitignore',
 			'!Gruntfile.js',
-			'!README.md',
 			'!package.json',
 			'!*.sublime-project',
 			'!*.sublime-workspace',
-		],
+			'!README.md',
+		]
 	}
 }

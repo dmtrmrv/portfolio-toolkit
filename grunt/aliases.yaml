@@ -13,6 +13,12 @@ build:
   - 'copy:build'
   - 'compress'
 
+svn:
+  - 'clean:svn'
+  - 'clean:assets'
+  - 'copy:svn'
+  - 'copy:assets'
+
 release:
   - 'makepot'
   - 'css'
