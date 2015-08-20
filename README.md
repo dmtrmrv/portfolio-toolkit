@@ -54,6 +54,10 @@ Absolutely. You are welcome to report issues and submit pull requests.
 
 ####Changelog
 
+**0.1.1**
+
+* Small improvements
+
 **0.1.0**
 
-Initial Release
+* Initial Release

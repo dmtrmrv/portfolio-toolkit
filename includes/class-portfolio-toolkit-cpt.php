@@ -67,7 +67,7 @@ class Portfolio_Toolkit_CPT {
 			'register_meta_box_cb' => null,
 			'taxonomies'           => array( 'portfolio_category', 'portfolio_tag' ),
 			'has_archive'          => true,
-			'rewrite'              => array('slug' => 'smegmis', ),
+			'rewrite'              => array('slug' => 'projects', ),
 			'query_var'            => 'portfolio',
 			'can_export'           => true,
 			'delete_with_user'     => null,

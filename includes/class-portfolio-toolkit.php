@@ -67,7 +67,7 @@ class Portfolio_Toolkit {
 	public function __construct() {
 
 		$this->plugin_name = 'portfolio-toolkit';
-		$this->version = '0.1.0';
+		$this->version = '0.1.1';
 
 		$this->load_dependencies();
 		$this->set_locale();

@@ -14,7 +14,7 @@
  *
  * Plugin Name: Portfolio Toolkit
  * Description: Adds portfolio functionality to your WordPress website.
- * Version:     0.1.0
+ * Version:     0.1.1
  * Author:      Dmitry Mayorov
  * Author URI:  http://dmitrymayorov.com/
  * License:     GPL-2.0+
