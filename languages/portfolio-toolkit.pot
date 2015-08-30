@@ -2,7 +2,7 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Portfolio Toolkit 0.1.0\n"
+"Project-Id-Version: Portfolio Toolkit 0.1.2\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/portfolio-toolkit\n"
 "POT-Creation-Date: 2015-05-26 14:26:49+00:00\n"
 "MIME-Version: 1.0\n"

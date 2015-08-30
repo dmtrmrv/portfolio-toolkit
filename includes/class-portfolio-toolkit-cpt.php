@@ -65,9 +65,9 @@ class Portfolio_Toolkit_CPT {
 			'map_meta_cap'         => true,
 			'supports'             => $supports,
 			'register_meta_box_cb' => null,
-			'taxonomies'           => array( 'portfolio_category', 'portfolio_tag' ),
+			'taxonomies'           => array( 'portfolio-category', 'portfolio-tag' ),
 			'has_archive'          => true,
-			'rewrite'              => array('slug' => 'projects', ),
+			'rewrite'              => array('slug' => 'portfolio', ),
 			'query_var'            => 'portfolio',
 			'can_export'           => true,
 			'delete_with_user'     => null,
@@ -97,7 +97,7 @@ class Portfolio_Toolkit_CPT {
 		);
 		
 		// Register portfolio category taxonomy.
-		register_taxonomy( 'portfolio_category', array( 'portfolio' ), array(
+		register_taxonomy( 'portfolio-category', array( 'portfolio' ), array(
 			'labels'            => $labels,
 			'public'            => true,
 			'hierarchical'      => true,
@@ -122,7 +122,7 @@ class Portfolio_Toolkit_CPT {
 		);
 
 		// Register portfolio tag taxonomy.
-		register_taxonomy( 'portfolio_tag', array( 'portfolio' ), array(
+		register_taxonomy( 'portfolio-tag', array( 'portfolio' ), array(
 			'labels'            => $labels,
 			'public'            => true,
 			'hierarchical'      => false,
