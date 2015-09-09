@@ -13,151 +13,151 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.5.2\n"
 
-#: admin/class-portfolio-toolkit-admin-meta.php:33
+#: admin/class-portfolio-toolkit-admin-meta.php:32
 msgid "Client"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin-meta.php:38
+#: admin/class-portfolio-toolkit-admin-meta.php:37
 msgid "Who was the client? Example: Apple"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin-meta.php:42
+#: admin/class-portfolio-toolkit-admin-meta.php:41
 msgid "Date"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin-meta.php:47
+#: admin/class-portfolio-toolkit-admin-meta.php:46
 msgid "When was the project completed? Example: %s"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin-meta.php:51
+#: admin/class-portfolio-toolkit-admin-meta.php:50
 msgid "URL"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin-meta.php:56
+#: admin/class-portfolio-toolkit-admin-meta.php:55
 msgid "Link to a live project. Example: http://www.apple.com"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin-meta.php:72
+#: admin/class-portfolio-toolkit-admin-meta.php:71
 msgid "Project Details"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:82
+#: admin/class-portfolio-toolkit-admin.php:88
 msgid "Project"
 msgstr ""
 
-#: admin/class-portfolio-toolkit-admin.php:87
+#: admin/class-portfolio-toolkit-admin.php:93
 msgid "Image"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:34
+#: includes/class-portfolio-toolkit-cpt.php:33
 msgid "Add New Project"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:35
+#: includes/class-portfolio-toolkit-cpt.php:34
 msgid "New Project"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:36
+#: includes/class-portfolio-toolkit-cpt.php:35
 msgid "Edit Project"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:37
+#: includes/class-portfolio-toolkit-cpt.php:36
 msgid "View Project"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:38
+#: includes/class-portfolio-toolkit-cpt.php:37
 msgid "All Projects"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:39
+#: includes/class-portfolio-toolkit-cpt.php:38
 msgid "Search Projects"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:40
+#: includes/class-portfolio-toolkit-cpt.php:39
 msgid "Parent Projects:"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:41
+#: includes/class-portfolio-toolkit-cpt.php:40
 msgid "No projects found."
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:42
+#: includes/class-portfolio-toolkit-cpt.php:41
 msgid "No projects found in Trash."
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:60
+#: includes/class-portfolio-toolkit-cpt.php:59
 msgid "Portfolio Items"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:88
+#: includes/class-portfolio-toolkit-cpt.php:87
 msgid "Search Categories"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:89
+#: includes/class-portfolio-toolkit-cpt.php:88
 msgid "All Categories"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:90
+#: includes/class-portfolio-toolkit-cpt.php:89
 msgid "Parent Category"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:91
+#: includes/class-portfolio-toolkit-cpt.php:90
 msgid "Parent Category:"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:92
+#: includes/class-portfolio-toolkit-cpt.php:91
 msgid "Edit Category"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:93
+#: includes/class-portfolio-toolkit-cpt.php:92
 msgid "Update Category"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:94
+#: includes/class-portfolio-toolkit-cpt.php:93
 msgid "Add New Category"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:95
+#: includes/class-portfolio-toolkit-cpt.php:94
 msgid "New Category Name"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:96
+#: includes/class-portfolio-toolkit-cpt.php:95
 msgid "Categories"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:113
+#: includes/class-portfolio-toolkit-cpt.php:112
 msgid "Search Tags"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:114
+#: includes/class-portfolio-toolkit-cpt.php:113
 msgid "All Tags"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:115
+#: includes/class-portfolio-toolkit-cpt.php:114
 msgid "Parent Tag"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:116
+#: includes/class-portfolio-toolkit-cpt.php:115
 msgid "Parent Tag:"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:117
+#: includes/class-portfolio-toolkit-cpt.php:116
 msgid "Edit Tag"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:118
+#: includes/class-portfolio-toolkit-cpt.php:117
 msgid "Update Tag"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:119
+#: includes/class-portfolio-toolkit-cpt.php:118
 msgid "Add New Tag"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:120
+#: includes/class-portfolio-toolkit-cpt.php:119
 msgid "New Tag Name"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:121
+#: includes/class-portfolio-toolkit-cpt.php:120
 msgid "Tags"
 msgstr ""
 
@@ -177,47 +177,47 @@ msgstr ""
 msgid "http://dmitrymayorov.com/"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:29
+#: includes/class-portfolio-toolkit-cpt.php:28
 msgctxt "post type general name"
 msgid "Projects"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:30
+#: includes/class-portfolio-toolkit-cpt.php:29
 msgctxt "post type singular name"
 msgid "Project"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:31
+#: includes/class-portfolio-toolkit-cpt.php:30
 msgctxt "admin menu"
 msgid "Portfolio"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:32
+#: includes/class-portfolio-toolkit-cpt.php:31
 msgctxt "add new on admin bar"
 msgid "Project"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:33
+#: includes/class-portfolio-toolkit-cpt.php:32
 msgctxt "book"
 msgid "Add New"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:86
+#: includes/class-portfolio-toolkit-cpt.php:85
 msgctxt "taxonomy general name"
 msgid "Categories"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:111
+#: includes/class-portfolio-toolkit-cpt.php:110
 msgctxt "taxonomy general name"
 msgid "Tags"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:87
+#: includes/class-portfolio-toolkit-cpt.php:86
 msgctxt "taxonomy singular name"
 msgid "Category"
 msgstr ""
 
-#: includes/class-portfolio-toolkit-cpt.php:112
+#: includes/class-portfolio-toolkit-cpt.php:111
 msgctxt "taxonomy singular name"
 msgid "Tag"
 msgstr ""

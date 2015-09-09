@@ -1,5 +1,4 @@
 <?php
-
 /**
  * The admin-specific functionality of the plugin.
  *
@@ -28,7 +27,7 @@ class Portfolio_Toolkit_Admin_Meta {
 	 * @since 0.1.0
 	 */
 	public function get_fields() {
-		$fields = array (
+		$fields = array(
 			'client' => array(
 				'title' => __( 'Client', 'portfolio-toolkit' ),
 				'name'  => '_portfolio_toolkit_project_client',
@@ -57,7 +56,7 @@ class Portfolio_Toolkit_Admin_Meta {
 				'sntz'  => 'url',
 			),
 		);
-		
+
 		return $fields;
 	}
 
@@ -78,7 +77,7 @@ class Portfolio_Toolkit_Admin_Meta {
 
 	/**
 	 * Displays Metaboxes.
-	 * 
+	 *
 	 * @since 0.1.0
 	 */
 	public function display_fields() {
@@ -87,11 +86,24 @@ class Portfolio_Toolkit_Admin_Meta {
 			// Get data if it was already set.
 			$value = get_post_meta( get_the_ID(), $field['name'], true );
 
-			// Extract variables.
-			extract( $field );
+			// Display input.
+			echo '<div class="ptk-field-wrap">';
 
-			// Display input depending on a field sanitization method.
-			require plugin_dir_path( __FILE__ ) . 'partials/portfolio-toolkit-admin-display-' .  $field['sntz'] . '.php';
+			printf(
+				'<label for="%1$s"><strong>%2$s</strong></label>',
+				esc_attr( $field['name'] ),
+				esc_html( $field['title'] )
+			);
+
+			printf( '<input name="%1$s" type="%2$s" value="%3$s" class="%4$s" placeholder="%5$s"> ',
+				esc_attr( $field['name'] ),
+				esc_attr( $field['type'] ),
+				esc_attr( $value ),
+				esc_attr( $field['class'] ),
+				esc_attr( $field['desc'] )
+			);
+
+			echo '</div>';
 		}
 
 		// Output nonce.
@@ -99,46 +111,51 @@ class Portfolio_Toolkit_Admin_Meta {
 
 	}
 
-    /**
+	/**
 	 * Saves Metabox data to a database.
-	 * 
+	 *
+	 * @param int    $post_id ID of the post we are working with.
+	 * @param object $post    Post object.
 	 * @since 0.1.0
 	 */
 	public function save_data( $post_id, $post ) {
 		// Check if nonce is set.
-		if ( ! isset( $_POST['_portfolio_toolkit_nonce'] ) )
+		if ( ! isset( $_POST['_portfolio_toolkit_nonce'] ) ) {
 			return;
-		
+		}
+
 		// In case it is, verify it.
-		if ( ! wp_verify_nonce( $_POST['_portfolio_toolkit_nonce'], plugin_basename( __FILE__ ) ) )
+		$nonce = sanitize_key( $_POST['_portfolio_toolkit_nonce'] );
+		if ( ! wp_verify_nonce( $nonce, plugin_basename( __FILE__ ) ) ) {
 			return;
+		}
 
 		// Return if it is a revision or autosave.
-		if ( wp_is_post_autosave( $post->ID ) || wp_is_post_revision( $post->ID ) )
+		if ( wp_is_post_autosave( $post->ID ) || wp_is_post_revision( $post->ID ) ) {
 			return;
+		}
 
 		// Is the user allowed to edit the post or page?
-		if ( ! current_user_can( 'edit_post', $post->ID ) )
+		if ( ! current_user_can( 'edit_post', $post->ID ) ) {
 			return;
+		}
 
 		// Loop through meta array, saving or deleting data.
 		foreach ( $this->get_fields() as $field ) {
 			if ( isset( $_POST[ $field['name'] ] ) ) {
-				
+
 				// Sanitize and save data.
-				if ( $field['sntz'] == 'url' ) {
-					$value = esc_url_raw( $_POST[ $field['name'] ] );
+				if ( 'url' == $field['sntz'] ) {
+					$value = esc_url_raw( wp_unslash( $_POST[ $field['name'] ] ) );
 				} else {
-					$value = sanitize_text_field( $_POST[ $field['name'] ] );
+					$value = sanitize_text_field( wp_unslash( $_POST[ $field['name'] ] ) );
 				}
 				update_post_meta( $post->ID, $field['name'], $value );
 
 			} else {
 				delete_post_meta( $post->ID, $field['name'] );
 			}
-			
 		}
 
 	}
-
 }

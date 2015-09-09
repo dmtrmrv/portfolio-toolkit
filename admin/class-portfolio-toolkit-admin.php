@@ -1,5 +1,4 @@
 <?php
-
 /**
  * The admin-specific functionality of the plugin.
  *
@@ -54,6 +53,11 @@ class Portfolio_Toolkit_Admin {
 
 	}
 
+	/**
+	 * Adds image size for dashboard use.
+	 *
+	 * @since 0.1.0
+	 */
 	public function add_thumbnail() {
 		add_image_size( 'portfolio-toolkit-thumbnail', 100, 100, true );
 	}
@@ -61,6 +65,7 @@ class Portfolio_Toolkit_Admin {
 	/**
 	 * Gets featured image.
 	 *
+	 * @param int $post_ID Post ID.
 	 * @since 0.1.0
 	 */
 	public function post_type_get_featured_image( $post_ID ) {
@@ -68,32 +73,35 @@ class Portfolio_Toolkit_Admin {
 
 		if ( $featured_image_id ) {
 			$post_thumbnail_img = wp_get_attachment_image_src( $featured_image_id, 'portfolio-toolkit-thumbnail' );
-			return $post_thumbnail_img[ 0 ];
+			return $post_thumbnail_img[0];
 		}
 	}
 
 	/**
 	 * Adds image column to Portfolio post listing screen.
 	 *
+	 * @param array $columns Columns in the posts table in the Dashboard.
 	 * @since 0.1.0
 	 */
 	public function post_type_admin_columns( $columns ) {
-		// change 'Title' to 'Project' Jetpack Style.
+		// Change 'Title' to 'Project'.
 		$columns['title'] = __( 'Project', 'portfolio-toolkit' );
-		
+
 		// Add Image column if current theme supports thumbnails.
 		if ( current_theme_supports( 'post-thumbnails' ) ) {
 			$columns = array_slice( $columns, 0, 1, true ) +
 		               array( 'portfolio-toolkit-thumbnail' => __( 'Image', 'portfolio-toolkit' ) ) +
-		               array_slice( $columns, 1, NULL, true );
+		               array_slice( $columns, 1, null, true );
 		}
-		
+
 		return $columns;
 	}
 
 	/**
 	 * Displays Featured image or a placeholder.
 	 *
+	 * @param string $column_name Name of the column where to put featured image.
+	 * @param int    $post_ID     Post ID.
 	 * @since 0.1.0
 	 */
 	public function post_type_admin_columns_content( $column_name, $post_ID ) {
@@ -102,20 +110,20 @@ class Portfolio_Toolkit_Admin {
 			return;
 		}
 
-		if ( $column_name == 'portfolio-toolkit-thumbnail' ) {
+		if ( 'portfolio-toolkit-thumbnail' == $column_name ) {
 
 			// Try to get featured image ID.
 			$post_featured_image = $this->post_type_get_featured_image( $post_ID );
-			
-			// Build an 'edit post' link.
-			printf( '<a href="%s">', get_edit_post_link( $post_ID ) );
 
-				// Display image or placeholder.
-				if ( $post_featured_image ) {
-					printf( '<img src="%s">', $post_featured_image );
-				} else {
-					echo '<span class="no-image dashicons dashicons-format-image">';
-				}
+			// Build an 'edit post' link.
+			printf( '<a href="%s">', esc_url( get_edit_post_link( $post_ID ) ) );
+
+			// Display image or placeholder.
+			if ( $post_featured_image ) {
+				printf( '<img src="%s">', esc_url( $post_featured_image ) );
+			} else {
+				echo '<span class="no-image dashicons dashicons-format-image">';
+			}
 
 			echo '</a>';
 
@@ -138,5 +146,4 @@ class Portfolio_Toolkit_Admin {
 		);
 
 	}
-
 }

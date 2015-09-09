@@ -1,7 +1,6 @@
 <?php
-
 /**
- * Fired during plugin activation
+ * Fired during plugin activation.
  *
  * @link       http://dmitrymayorov.com/
  * @since      0.1.0
@@ -31,5 +30,4 @@ class Portfolio_Toolkit_Activator {
 		$cpt->post_type();
 		flush_rewrite_rules();
 	}
-
 }

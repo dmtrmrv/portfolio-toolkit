@@ -1,5 +1,4 @@
 <?php
-
 /**
  * The admin-specific functionality of the plugin.
  *
@@ -39,7 +38,7 @@ class Portfolio_Toolkit_CPT {
 			'search_items'       => __( 'Search Projects',                      'portfolio-toolkit' ),
 			'parent_item_colon'  => __( 'Parent Projects:',                     'portfolio-toolkit' ),
 			'not_found'          => __( 'No projects found.',                   'portfolio-toolkit' ),
-			'not_found_in_trash' => __( 'No projects found in Trash.',          'portfolio-toolkit' )
+			'not_found_in_trash' => __( 'No projects found in Trash.',          'portfolio-toolkit' ),
 		);
 
 		$supports = array(
@@ -52,7 +51,7 @@ class Portfolio_Toolkit_CPT {
 			'thumbnail',
 			'publicize',
 			'custom-fields',
-			'wpcom-markdown'
+			'wpcom-markdown',
 		);
 
 		register_post_type( 'portfolio', array(
@@ -67,7 +66,7 @@ class Portfolio_Toolkit_CPT {
 			'register_meta_box_cb' => null,
 			'taxonomies'           => array( 'portfolio-category', 'portfolio-tag' ),
 			'has_archive'          => true,
-			'rewrite'              => array('slug' => 'portfolio', ),
+			'rewrite'              => array( 'slug' => 'portfolio' ),
 			'query_var'            => 'portfolio',
 			'can_export'           => true,
 			'delete_with_user'     => null,
@@ -80,7 +79,7 @@ class Portfolio_Toolkit_CPT {
 	 * @since 0.1.0
 	 */
 	public function post_taxonomies() {
-		
+
 		// Labels for portfolio category taxonomy.
 		$labels = array(
 			'name'              => _x( 'Categories', 'taxonomy general name',  'portfolio-toolkit' ),
@@ -95,7 +94,7 @@ class Portfolio_Toolkit_CPT {
 			'new_item_name'     => __( 'New Category Name',                    'portfolio-toolkit' ),
 			'menu_name'         => __( 'Categories',                           'portfolio-toolkit' ),
 		);
-		
+
 		// Register portfolio category taxonomy.
 		register_taxonomy( 'portfolio-category', array( 'portfolio' ), array(
 			'labels'            => $labels,
@@ -132,5 +131,4 @@ class Portfolio_Toolkit_CPT {
 		) );
 
 	}
-
 }

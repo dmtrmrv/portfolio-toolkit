@@ -1,5 +1,4 @@
 <?php
-
 /**
  * The file that defines the core plugin class
  *
@@ -229,5 +228,4 @@ class Portfolio_Toolkit {
 	public function get_version() {
 		return $this->version;
 	}
-
 }

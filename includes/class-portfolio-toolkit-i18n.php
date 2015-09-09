@@ -1,7 +1,6 @@
 <?php
-
 /**
- * Define the internationalization functionality
+ * Define the internationalization functionality.
  *
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
@@ -54,10 +53,9 @@ class Portfolio_Toolkit_i18n {
 	 * Set the domain equal to that of the specified domain.
 	 *
 	 * @since    0.1.0
-	 * @param    string    $domain    The domain that represents the locale of this plugin.
+	 * @param    string $domain    The domain that represents the locale of this plugin.
 	 */
 	public function set_domain( $domain ) {
 		$this->domain = $domain;
 	}
-
 }
