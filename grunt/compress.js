@@ -17,6 +17,7 @@ module.exports = {
 			'!.gitignore',
 			'!Gruntfile.js',
 			'!package.json',
+			'!codesniffer.ruleset.xml',
 			'!*.sublime-project',
 			'!*.sublime-workspace',
 			'!README.md',
