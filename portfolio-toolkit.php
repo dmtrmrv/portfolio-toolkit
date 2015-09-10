@@ -13,7 +13,7 @@
  *
  * Plugin Name: Portfolio Toolkit
  * Description: Adds portfolio functionality to your WordPress website.
- * Version:     0.1.2
+ * Version:     0.1.3
  * Author:      Dmitry Mayorov
  * Author URI:  http://dmitrymayorov.com/
  * License:     GPL-2.0+
@@ -61,7 +61,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-portfolio-toolkit.php';
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    0.1.0
+ * @since 0.1.0
  */
 function run_portfolio_toolkit() {
 
