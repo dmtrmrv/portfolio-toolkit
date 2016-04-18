@@ -65,11 +65,11 @@ class Portfolio_Toolkit_Admin {
 	/**
 	 * Gets featured image.
 	 *
-	 * @param int $post_ID Post ID.
+	 * @param int $id Post ID.
 	 * @since 0.1.0
 	 */
-	public function post_type_get_featured_image( $post_ID ) {
-		$featured_image_id = get_post_thumbnail_id( $post_ID );
+	public function post_type_get_featured_image( $id ) {
+		$featured_image_id = get_post_thumbnail_id( $id );
 
 		if ( $featured_image_id ) {
 			$post_thumbnail_img = wp_get_attachment_image_src( $featured_image_id, 'portfolio-toolkit-thumbnail' );
@@ -101,10 +101,10 @@ class Portfolio_Toolkit_Admin {
 	 * Displays Featured image or a placeholder.
 	 *
 	 * @param string $column_name Name of the column where to put featured image.
-	 * @param int    $post_ID     Post ID.
+	 * @param int    $id          Post ID.
 	 * @since 0.1.0
 	 */
-	public function post_type_admin_columns_content( $column_name, $post_ID ) {
+	public function post_type_admin_columns_content( $column_name, $id ) {
 		// Quick return if current theme does not support thumbnails.
 		if ( ! current_theme_supports( 'post-thumbnails' ) ) {
 			return;
@@ -113,10 +113,10 @@ class Portfolio_Toolkit_Admin {
 		if ( 'portfolio-toolkit-thumbnail' == $column_name ) {
 
 			// Try to get featured image ID.
-			$post_featured_image = $this->post_type_get_featured_image( $post_ID );
+			$post_featured_image = $this->post_type_get_featured_image( $id );
 
 			// Build an 'edit post' link.
-			printf( '<a href="%s">', esc_url( get_edit_post_link( $post_ID ) ) );
+			printf( '<a href="%s">', esc_url( get_edit_post_link( $id ) ) );
 
 			// Display image or placeholder.
 			if ( $post_featured_image ) {

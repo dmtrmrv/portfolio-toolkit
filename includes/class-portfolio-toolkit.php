@@ -66,7 +66,7 @@ class Portfolio_Toolkit {
 	public function __construct() {
 
 		$this->plugin_name = 'portfolio-toolkit';
-		$this->version = '0.1.3';
+		$this->version = '0.1.4';
 
 		$this->load_dependencies();
 		$this->set_locale();
@@ -134,8 +134,8 @@ class Portfolio_Toolkit {
 	private function set_locale() {
 
 		$plugin_i18n = new Portfolio_Toolkit_i18n();
-		$plugin_i18n->set_domain( $this->get_plugin_name() );
 
+		// Load text domain.
 		$this->loader->add_action( 'plugins_loaded', $plugin_i18n, 'load_plugin_textdomain' );
 
 	}

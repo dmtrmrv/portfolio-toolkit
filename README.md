@@ -54,18 +54,23 @@ Absolutely. You are welcome to report issues and submit pull requests.
 
 ####Changelog
 
+**0.1.4**
+
+Fixed: Minor Codesniffer warnings  
+Added: Compatibility with WordPress 4.5
+
 **0.1.3**
 
-* Minor improvements and bug fixes.
+Fixed: Minor improvements and bug fixes
 
 **0.1.2**
 
-* Tested with WordPress 4.3
+Added: Compatibility with WordPress 4.3
 
 **0.1.1**
 
-* Minor improvements.
+Fixed: Minor codesniffer warnings
 
 **0.1.0**
 
-* Initial Release.
+Initial Release
