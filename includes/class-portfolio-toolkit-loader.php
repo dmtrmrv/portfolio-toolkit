@@ -18,7 +18,7 @@
  *
  * @package    Portfolio Toolkit
  * @subpackage Portfolio Toolkit/includes
- * @author     Dmitry Mayorov <iamdmitrymayorov@gmail.com>
+ * @author     Dmitry Mayorov <hello@dmtrmrv.com>
  */
 class Portfolio_Toolkit_Loader {
 
