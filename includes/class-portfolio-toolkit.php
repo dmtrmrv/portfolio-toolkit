@@ -5,11 +5,11 @@
  * A class definition that includes attributes and functions used across both the
  * public-facing side of the site and the admin area.
  *
- * @link       http://dmitrymayorov.com/
+ * @link       https://dmtrmrv.com
  * @since      0.1.0
  *
- * @package    Portfolio_Toolkit
- * @subpackage Portfolio_Toolkit/includes
+ * @package    Portfolio Toolkit
+ * @subpackage Portfolio Toolkit/includes
  */
 
 /**
@@ -21,8 +21,8 @@
  * version of the plugin.
  *
  * @since      0.1.0
- * @package    Portfolio_Toolkit
- * @subpackage Portfolio_Toolkit/includes
+ * @package    Portfolio Toolkit
+ * @subpackage Portfolio Toolkit/includes
  * @author     Dmitry Mayorov <iamdmitrymayorov@gmail.com>
  */
 class Portfolio_Toolkit {
@@ -82,7 +82,7 @@ class Portfolio_Toolkit {
 	 * Include the following files that make up the plugin:
 	 *
 	 * - Portfolio_Toolkit_Loader. Orchestrates the hooks of the plugin.
-	 * - Portfolio_Toolkit_i18n. Defines internationalization functionality.
+	 * - Portfolio_Toolkit_I18n. Defines internationalization functionality.
 	 * - Portfolio_Toolkit_Admin. Defines all hooks for the admin area.
 	 *
 	 * Create an instance of the loader which will be used to register the hooks
@@ -125,7 +125,7 @@ class Portfolio_Toolkit {
 	/**
 	 * Define the locale for this plugin for internationalization.
 	 *
-	 * Uses the Portfolio_Toolkit_i18n class in order to set the domain and to register the hook
+	 * Uses the Portfolio_Toolkit_I18n class in order to set the domain and to register the hook
 	 * with WordPress.
 	 *
 	 * @since  0.1.0
@@ -133,7 +133,7 @@ class Portfolio_Toolkit {
 	 */
 	private function set_locale() {
 
-		$plugin_i18n = new Portfolio_Toolkit_i18n();
+		$plugin_i18n = new Portfolio_Toolkit_I18n();
 
 		// Load text domain.
 		$this->loader->add_action( 'plugins_loaded', $plugin_i18n, 'load_plugin_textdomain' );

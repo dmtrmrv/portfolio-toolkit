@@ -7,15 +7,15 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link        http://dmitrymayorov.com/
+ * @link        https://dmtrmrv.com
  * @since       0.1.0
- * @package     Portfolio_Toolkit
+ * @package     Portfolio Toolkit
  *
  * Plugin Name: Portfolio Toolkit
  * Description: Adds portfolio functionality to your WordPress website.
  * Version:     0.1.4
  * Author:      Dmitry Mayorov
- * Author URI:  http://dmitrymayorov.com/
+ * Author URI:  https://dmtrmrv.com
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: portfolio-toolkit

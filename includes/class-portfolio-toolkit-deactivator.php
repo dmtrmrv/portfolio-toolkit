@@ -2,19 +2,19 @@
 /**
  * Fired during plugin deactivation.
  *
- * @link       http://dmitrymayorov.com/
+ * @link       https://dmtrmrv.com
  * @since      0.1.0
  *
- * @package    Portfolio_Toolkit
- * @subpackage Portfolio_Toolkit/includes
+ * @package    Portfolio Toolkit
+ * @subpackage Portfolio Toolkit/includes
  */
 
 /**
  * Fired during plugin deactivation.
  *
  * @since      0.1.0
- * @package    Portfolio_Toolkit
- * @subpackage Portfolio_Toolkit/includes
+ * @package    Portfolio Toolkit
+ * @subpackage Portfolio Toolkit/includes
  * @author     Dmitry Mayorov <iamdmitrymayorov@gmail.com>
  */
 class Portfolio_Toolkit_Deactivator {

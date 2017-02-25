@@ -1,1 +1,7 @@
-<?php // Silence is golden.
+<?php
+/**
+ * Silence is golden.
+ *
+ * @package Portfolio Toolkit
+ */
+

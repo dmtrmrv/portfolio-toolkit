@@ -2,18 +2,18 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       http://dmitrymayorov.com/
+ * @link       https://dmtrmrv.com
  * @since      0.1.0
  *
- * @package    Portfolio_Toolkit
- * @subpackage Portfolio_Toolkit/includes
+ * @package    Portfolio Toolkit
+ * @subpackage Portfolio Toolkit/includes
  */
 
 /**
  * Registeres 'portfolio' post type.
  *
- * @package    Portfolio_Toolkit
- * @subpackage Portfolio_Toolkit/includes
+ * @package    Portfolio Toolkit
+ * @subpackage Portfolio Toolkit/includes
  * @author     Dmitry Mayorov <iamdmitrymayorov@gmail.com>
  */
 class Portfolio_Toolkit_CPT {

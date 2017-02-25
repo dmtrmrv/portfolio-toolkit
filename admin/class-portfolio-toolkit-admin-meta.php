@@ -2,11 +2,11 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       http://dmitrymayorov.com/
+ * @link       https://dmtrmrv.com
  * @since      0.1.0
  *
- * @package    Portfolio_Toolkit
- * @subpackage Portfolio_Toolkit/admin
+ * @package    Portfolio Toolkit
+ * @subpackage Portfolio Toolkit/admin
  */
 
 /**
@@ -15,8 +15,8 @@
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the admin-specific stylesheet and JavaScript.
  *
- * @package    Portfolio_Toolkit
- * @subpackage Portfolio_Toolkit/admin
+ * @package    Portfolio Toolkit
+ * @subpackage Portfolio Toolkit/admin
  * @author     Dmitry Mayorov <iamdmitrymayorov@gmail.com>
  */
 class Portfolio_Toolkit_Admin_Meta {

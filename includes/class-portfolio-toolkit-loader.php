@@ -2,11 +2,11 @@
 /**
  * Register all actions and filters for the plugin
  *
- * @link       http://dmitrymayorov.com/
+ * @link       https://dmtrmrv.com
  * @since      0.1.0
  *
- * @package    Portfolio_Toolkit
- * @subpackage Portfolio_Toolkit/includes
+ * @package    Portfolio Toolkit
+ * @subpackage Portfolio Toolkit/includes
  */
 
 /**
@@ -16,8 +16,8 @@
  * the plugin, and register them with the WordPress API. Call the
  * run function to execute the list of actions and filters.
  *
- * @package    Portfolio_Toolkit
- * @subpackage Portfolio_Toolkit/includes
+ * @package    Portfolio Toolkit
+ * @subpackage Portfolio Toolkit/includes
  * @author     Dmitry Mayorov <iamdmitrymayorov@gmail.com>
  */
 class Portfolio_Toolkit_Loader {
