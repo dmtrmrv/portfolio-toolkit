@@ -1,6 +1,6 @@
 {
 	"name": "portfolio-toolkit",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"devDependencies": {
 		"grunt": "^1.0.1",
 		"grunt-autoprefixer": "^3.0.0",
