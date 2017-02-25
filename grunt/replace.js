@@ -47,10 +47,8 @@ module.exports = {
 		],
 		overwrite: true,
 		replacements: [ {
-			from: /\$this->version.*/m,
-			to: function( matchedWord ) {
-				return matchedWord.replace( /\d+\.\d+\.\d+/g, '<%= package.version %>' );
-			}
+			from: /\$this\s*?->\s*?version\s*?\=\s*?(\'|\")\d+\.\d+\.\d(\'|\")/g,
+			to: "$this->version = '<%= package.version %>'"
 		} ]
 	}
 };
