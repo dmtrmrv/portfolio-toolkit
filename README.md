@@ -1,17 +1,15 @@
 Portfolio Toolkit adds 'portfolio' post type with two taxonomies (Category and Tag). It also adds custom metabox with three fields: 'Client', 'Date' and 'URL'.
 
----
+##Installation
 
-####Installation
-
-#####Using The WordPress Dashboard (Recommended)
+**Using The WordPress Dashboard (Recommended)**
 
 1. Go to `Plugins` → `Add New`
 2. In a search field type **portfolio-toolkit** and hit enter
 3. Click `Install Now` next to **Portfolio Toolkit** by Dmitry Mayorov
 4. Click `Activate the plugin` when installation is complete
 
-#####Uploading in WordPress Dashboard
+**Uploading in WordPress Dashboard**
 
 1. Go to `Plugins` → `Add New`
 2. Click on the `Upload Plugin` button next to the **Add Plugins** page title
@@ -20,7 +18,7 @@ Portfolio Toolkit adds 'portfolio' post type with two taxonomies (Category and T
 5. Click the `Install Now` button
 6. Click `Activate the plugin` when installation is complete
 
-#####Using FTP (Not Recommended)
+**Using FTP (Not Recommended)**
 
 1. Download **portfolio-toolkit.zip**
 2. Extract the **portfolio-toolkit** directory to your computer
@@ -28,9 +26,7 @@ Portfolio Toolkit adds 'portfolio' post type with two taxonomies (Category and T
 4. Go to `Plugins` → `Installed Plugins`
 5. Click `Activate` under **Portfolio Toolkit** plugin title
 
----
-
-####FAQ
+##FAQ
 
 **Who is this plugin for?**  
 Target audience of this plugin is mainly theme developers who are willing to create a portfolio theme or want to add portfolio functionality to an existing one.
@@ -50,27 +46,30 @@ No, it doesn't. However, you can easily create your own in your theme (or child 
 **Can I participate?**  
 Absolutely. You are welcome to report issues and submit pull requests.
 
----
+##Changelog
 
-####Changelog
+**0.1.5**
+
+* Fixed: Minor Codesniffer warnings
+* Changed: Portfolio taxonomy labels
 
 **0.1.4**
 
-Fixed: Minor Codesniffer warnings  
-Added: Compatibility with WordPress 4.5
+* Fixed: Minor Codesniffer warnings
+* Added: Compatibility with WordPress 4.5
 
 **0.1.3**
 
-Fixed: Minor improvements and bug fixes
+* Fixed: Minor improvements and bug fixes
 
 **0.1.2**
 
-Added: Compatibility with WordPress 4.3
+* Added: Compatibility with WordPress 4.3
 
 **0.1.1**
 
-Fixed: Minor codesniffer warnings
+* Fixed: Minor codesniffer warnings
 
 **0.1.0**
 
-Initial Release
+* Initial Release
