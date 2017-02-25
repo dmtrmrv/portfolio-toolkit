@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Portfolio Toolkit 0.1.4\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/portfolio-toolkit\n"
-"POT-Creation-Date: 2017-02-25 10:46:49+00:00\n"
+"POT-Creation-Date: 2017-02-25 10:54:07+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -91,75 +91,75 @@ msgid "Portfolio Items"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:87
-msgid "Search Categories"
+msgid "Search Portfolio Categories"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:88
-msgid "All Categories"
+msgid "All Portfolio Categories"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:89
-msgid "Parent Category"
+msgid "Parent Portfolio Category"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:90
-msgid "Parent Category:"
+msgid "Parent Portfolio Category:"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:91
-msgid "Edit Category"
+msgid "Edit Portfolio Category"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:92
-msgid "Update Category"
+msgid "Update Portfolio Category"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:93
-msgid "Add New Category"
+msgid "Add New Portfolio Category"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:94
-msgid "New Category Name"
+msgid "New Portfolio Category Name"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:95
-msgid "Categories"
+msgid "Portfolio Categories"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:112
-msgid "Search Tags"
+msgid "Search Portfolio Tags"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:113
-msgid "All Tags"
+msgid "All Portfolio Tags"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:114
-msgid "Parent Tag"
+msgid "Parent Portfolio Tag"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:115
-msgid "Parent Tag:"
+msgid "Parent Portfolio Tag:"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:116
-msgid "Edit Tag"
+msgid "Edit Portfolio Tag"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:117
-msgid "Update Tag"
+msgid "Update Portfolio Tag"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:118
-msgid "Add New Tag"
+msgid "Add New Portfolio Tag"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:119
-msgid "New Tag Name"
+msgid "New Portfolio Tag Name"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:120
-msgid "Tags"
+msgid "Portfolio Tags"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
@@ -205,20 +205,20 @@ msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:85
 msgctxt "taxonomy general name"
-msgid "Categories"
+msgid "Portfolio Categories"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:110
 msgctxt "taxonomy general name"
-msgid "Tags"
+msgid "Portfolio Tags"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:86
 msgctxt "taxonomy singular name"
-msgid "Category"
+msgid "Portfolio Category"
 msgstr ""
 
 #: includes/class-portfolio-toolkit-cpt.php:111
 msgctxt "taxonomy singular name"
-msgid "Tag"
+msgid "Portfolio Tag"
 msgstr ""

@@ -82,17 +82,17 @@ class Portfolio_Toolkit_CPT {
 
 		// Labels for portfolio category taxonomy.
 		$labels = array(
-			'name'              => _x( 'Categories', 'taxonomy general name',  'portfolio-toolkit' ),
-			'singular_name'     => _x( 'Category',   'taxonomy singular name', 'portfolio-toolkit' ),
-			'search_items'      => __( 'Search Categories',                    'portfolio-toolkit' ),
-			'all_items'         => __( 'All Categories',                       'portfolio-toolkit' ),
-			'parent_item'       => __( 'Parent Category',                      'portfolio-toolkit' ),
-			'parent_item_colon' => __( 'Parent Category:',                     'portfolio-toolkit' ),
-			'edit_item'         => __( 'Edit Category',                        'portfolio-toolkit' ),
-			'update_item'       => __( 'Update Category',                      'portfolio-toolkit' ),
-			'add_new_item'      => __( 'Add New Category',                     'portfolio-toolkit' ),
-			'new_item_name'     => __( 'New Category Name',                    'portfolio-toolkit' ),
-			'menu_name'         => __( 'Categories',                           'portfolio-toolkit' ),
+			'name'              => _x( 'Portfolio Categories', 'taxonomy general name',  'portfolio-toolkit' ),
+			'singular_name'     => _x( 'Portfolio Category',   'taxonomy singular name', 'portfolio-toolkit' ),
+			'search_items'      => __( 'Search Portfolio Categories',                    'portfolio-toolkit' ),
+			'all_items'         => __( 'All Portfolio Categories',                       'portfolio-toolkit' ),
+			'parent_item'       => __( 'Parent Portfolio Category',                      'portfolio-toolkit' ),
+			'parent_item_colon' => __( 'Parent Portfolio Category:',                     'portfolio-toolkit' ),
+			'edit_item'         => __( 'Edit Portfolio Category',                        'portfolio-toolkit' ),
+			'update_item'       => __( 'Update Portfolio Category',                      'portfolio-toolkit' ),
+			'add_new_item'      => __( 'Add New Portfolio Category',                     'portfolio-toolkit' ),
+			'new_item_name'     => __( 'New Portfolio Category Name',                    'portfolio-toolkit' ),
+			'menu_name'         => __( 'Portfolio Categories',                           'portfolio-toolkit' ),
 		);
 
 		// Register portfolio category taxonomy.
@@ -107,17 +107,17 @@ class Portfolio_Toolkit_CPT {
 
 		// Labels for portfolio tag taxonomy.
 		$labels = array(
-			'name'              => _x( 'Tags', 'taxonomy general name',  'portfolio-toolkit' ),
-			'singular_name'     => _x( 'Tag',  'taxonomy singular name', 'portfolio-toolkit' ),
-			'search_items'      => __( 'Search Tags',                    'portfolio-toolkit' ),
-			'all_items'         => __( 'All Tags',                       'portfolio-toolkit' ),
-			'parent_item'       => __( 'Parent Tag',                     'portfolio-toolkit' ),
-			'parent_item_colon' => __( 'Parent Tag:',                    'portfolio-toolkit' ),
-			'edit_item'         => __( 'Edit Tag',                       'portfolio-toolkit' ),
-			'update_item'       => __( 'Update Tag',                     'portfolio-toolkit' ),
-			'add_new_item'      => __( 'Add New Tag',                    'portfolio-toolkit' ),
-			'new_item_name'     => __( 'New Tag Name',                   'portfolio-toolkit' ),
-			'menu_name'         => __( 'Tags',                           'portfolio-toolkit' ),
+			'name'              => _x( 'Portfolio Tags', 'taxonomy general name',  'portfolio-toolkit' ),
+			'singular_name'     => _x( 'Portfolio Tag',  'taxonomy singular name', 'portfolio-toolkit' ),
+			'search_items'      => __( 'Search Portfolio Tags',                    'portfolio-toolkit' ),
+			'all_items'         => __( 'All Portfolio Tags',                       'portfolio-toolkit' ),
+			'parent_item'       => __( 'Parent Portfolio Tag',                     'portfolio-toolkit' ),
+			'parent_item_colon' => __( 'Parent Portfolio Tag:',                    'portfolio-toolkit' ),
+			'edit_item'         => __( 'Edit Portfolio Tag',                       'portfolio-toolkit' ),
+			'update_item'       => __( 'Update Portfolio Tag',                     'portfolio-toolkit' ),
+			'add_new_item'      => __( 'Add New Portfolio Tag',                    'portfolio-toolkit' ),
+			'new_item_name'     => __( 'New Portfolio Tag Name',                   'portfolio-toolkit' ),
+			'menu_name'         => __( 'Portfolio Tags',                           'portfolio-toolkit' ),
 		);
 
 		// Register portfolio tag taxonomy.
