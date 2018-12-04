@@ -1,9 +1,11 @@
+const sass = require('node-sass');
+
 module.exports = {
 	admin: {
 		options: {
 			style:     'expanded',
 			sourcemap: 'none',
-			require:   'susy'
+			implementation: sass
 		},
 		files: {
 			'admin/css/<%= package.name %>-admin.css': 'sass/admin.scss',

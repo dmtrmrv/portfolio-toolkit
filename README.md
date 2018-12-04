@@ -1,6 +1,6 @@
 Portfolio Toolkit adds 'portfolio' post type with two taxonomies (Category and Tag). It also adds custom metabox with three fields: 'Client', 'Date' and 'URL'.
 
-##Installation
+## Installation
 
 **Using The WordPress Dashboard (Recommended)**
 
@@ -26,7 +26,7 @@ Portfolio Toolkit adds 'portfolio' post type with two taxonomies (Category and T
 4. Go to `Plugins` → `Installed Plugins`
 5. Click `Activate` under **Portfolio Toolkit** plugin title
 
-##FAQ
+## FAQ
 
 **Who is this plugin for?**  
 Target audience of this plugin is mainly theme developers who are willing to create a portfolio theme or want to add portfolio functionality to an existing one.
@@ -46,7 +46,12 @@ No, it doesn't. However, you can easily create your own in your theme (or child 
 **Can I participate?**  
 Absolutely. You are welcome to report issues and submit pull requests.
 
-##Changelog
+## Changelog
+
+**0.1.6**
+
+* Fixed: Minor Codesniffer warnings
+* Added: Compatibility with WordPress 5.0
 
 **0.1.5**
 
