@@ -48,6 +48,10 @@ Absolutely. You are welcome to report issues and submit pull requests.
 
 ## Changelog
 
+**0.1.7**
+
+* Added: Set 'show_in_rest' key to true so Gutenberg is enabled by default
+
 **0.1.6**
 
 * Fixed: Minor Codesniffer warnings
