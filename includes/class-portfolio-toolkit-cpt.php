@@ -70,6 +70,7 @@ class Portfolio_Toolkit_CPT {
 			'query_var'            => 'portfolio',
 			'can_export'           => true,
 			'delete_with_user'     => null,
+			'show_in_rest'         => true,
 		) );
 	}
 
