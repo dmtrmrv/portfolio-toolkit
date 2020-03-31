@@ -28,25 +28,29 @@ Portfolio Toolkit adds 'portfolio' post type with two taxonomies (Category and T
 
 ## FAQ
 
-**Who is this plugin for?**  
+**Who is this plugin for?**
 Target audience of this plugin is mainly theme developers who are willing to create a portfolio theme or want to add portfolio functionality to an existing one.
 
-**How is this plugin different from Jetpack portfolio module or similar plugins?**  
+**How is this plugin different from Jetpack portfolio module or similar plugins?**
 This plugin is actually inspired by Jetpack portfolio module and [Portfolio Post Type](https://github.com/devinsays/portfolio-post-type) by Devin Price and Gary Jones. However, Portfolio Toolkit is built with [WordPress Plugin Boilerplate](https://github.com/DevinVinson/WordPress-Plugin-Boilerplate), which follows a slightly different approach in building plugins. On top of that, Portfolio Toolkit adds custom metabox with three fields.
 
-**What fields are included in a metabox?**  
-There are three meta boxes at the moment:  
-Client - Client name for the project (e.g. Apple)  
-Date - Release date of the project (e.g. June 2015)  
-URL - Link to a live project (e.g. http://www.apple.com/)  
+**What fields are included in a metabox?**
+There are three meta boxes at the moment:
+Client - Client name for the project (e.g. Apple)
+Date - Release date of the project (e.g. June 2015)
+URL - Link to a live project (e.g. http://www.apple.com/)
 
-**Does this plugin include any templates?**  
+**Does this plugin include any templates?**
 No, it doesn't. However, you can easily create your own in your theme (or child theme).
 
-**Can I participate?**  
+**Can I participate?**
 Absolutely. You are welcome to report issues and submit pull requests.
 
 ## Changelog
+
+**0.1.8**
+
+* Fixed: Make portfolio taxonomies appear in the editor.
 
 **0.1.7**
 
