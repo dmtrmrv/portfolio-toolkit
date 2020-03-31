@@ -104,6 +104,7 @@ class Portfolio_Toolkit_CPT {
 			'show_admin_column' => true,
 			'rewrite'           => array( 'slug' => 'project-category' ),
 			'query_var'         => true,
+			'show_in_rest'      => true,
 		) );
 
 		// Labels for portfolio tag taxonomy.
@@ -129,6 +130,7 @@ class Portfolio_Toolkit_CPT {
 			'show_admin_column' => true,
 			'rewrite'           => array( 'slug' => 'project-tag' ),
 			'query_var'         => true,
+			'show_in_rest'      => true,
 		) );
 
 	}
